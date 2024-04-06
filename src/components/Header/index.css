@@ -1,0 +1,71 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.logo-hamburger-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.website-logo-container {
+  display: flex;
+  flex-direction: row;
+  place-items: center stretch;
+}
+
+.website-title {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.nav-button {
+  width: 24px;
+  height: 24px;
+  top: 20px;
+  left: 312px;
+  padding: 6px 3px 6px 3px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-button {
+    display: none;
+  }
+}
+
+.nav-item-container-mobile {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+}
+.nav-item {
+  cursor: underline;
+  position: relative;
+  transform: color ease 0.4s;
+  opacity: inherit;
+  margin: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  line-height: 26px;
+  text-decoration: none;
+}
+
+.nav-item-selected-link {
+  color: #f7931e;
+}
+
+.nav-item-link {
+  color: #000000;
+}
